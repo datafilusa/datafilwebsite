@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>INDEXPAGE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Exo+2:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Exo+2:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Header.css">
+    <link rel="stylesheet" href="Buttons.css">
+    <link rel="stylesheet" href="Video.css">
+    <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="bottom.css">
+  </head>
+  <body>
+    <nav>
+      <div class="headerabt">
+        <div class="logoabt">
+          <a href="index.html">
+          <img src="IMAGE/DATAFILLOGO.png" class="datafillogoimage">
+          </a>
+        </div>
+        <div class="contactheaderabt">
+          <span class="mailiconabt">&#x2709
+          </span> 
+          <span id="emailad">Mail us: Datafilusa@gmail.com</span>
+          <a href="https://wa.me/+639267352551" target="_blank"><img class="whatsappiconabt" src="IMAGE/whatsapp.PNG"></a> Whatsapp us:+639267352551
+        </div>
+        <div class="socialmediaabt">
+          <a href="https://www.facebook.com/DataFilUSA/"  target="_blank"><img class= "facebookiconabt" src="IMAGE/facebook.PNG"></a>
+          <a href="https://www.instagram.com/datafilusa/"  target="_blank"><img class= "instagramiconabt" src="IMAGE/instagram.PNG"></a>
+          <a href="https://twitter.com/DataFilUSA" target="_blank"><img class= "twittericonabt" src="IMAGE/twitter.PNG"></a>
+        </div>
+      </div>
+      
+      <div class="buttonsabt">
+        <div class="sloganabt">
+          <a class="anchorsloganabt" href="index.html">Your path to success<a>
+          </div>
+        <div class="homeabt">
+          <a href="index.html">
+            <button class="homebuttonabt" id="homebuttonabtid">Home
+            </button>
+          </a>
+        </div>
+        <div class="aboutusabt">
+           <a href="Aboutus.html">
+            <button class="aboutusbuttonabt" id="aboutusbuttonabtid">About Us
+            </button>
+          </a>
+        </div>
+        <div class="ourservicesabt">
+          <a href="Ourservices.html">
+            <button class="ourservicesbuttonabt" id="ourservicesbuttonabtid">Our Services
+            </button>
+          </a>
+        </div>
+        <div class="contactusabt">
+          <a href="Contactus.html">
+            <button class="contactusbuttonabt" id="contactusbuttonabtid">Contact Us
+            </button>
+          </a>
+        </div> 
+      </div>
+    </nav>
+    <div class="videobody">
+      <div class="welvid"><div class="welcome"><img src="IMAGE/welcome.PNG" class="welcomeimg"></div>
+      <div class="video-container">
+        <video width="100%" autoplay loop muted>
+          <source src="VIDEO/Stockvideo1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div></div>
+    </div>
+    
+   <div class="choosetest"> <div class="choosedata"><img src="IMAGE/choosedata.PNG" class="choosedataimg"></div> <div class="testimonial">
+      <div id="slider-container" onmouseover="togglePause()" onmouseout="togglePause()">
+        <div id="slider">
+          <div class="slide">
+            <img src="IMAGE/juantest.png" alt="Slide 1" class="slideimg">
+          </div>
+          <div class="slide">
+            <img src="IMAGE/jrtestimonial.png" alt="Slide 2" class="slideimg">
+          </div>
+          <div class="slide">
+            <img src="IMAGE/samirtest.png" alt="Slide 3" class="slideimg">
+          </div>
+          <div class="slide">
+            <img src="IMAGE/shivangitest.png" alt="Slide 4" class="slideimg">
+          </div>
+          <!-- Add more slides as needed -->
+        </div>
+      </div>
+    </div>
+  </div>
+    
+<div class="bottom">
+  <div class="bottomline">© 2023 Datafil. All rights reserved</div><div class="privacypolicy">Privacy Policy</div>
+  <div class="bottomsocialmedia">
+    <a href="https://www.facebook.com/DataFilUSA/"  target="_blank"><img src="IMAGE/fbicon.png" class="fbiconimg"></a> 
+    <a href="https://www.instagram.com/datafilusa/"  target="_blank"><img src="IMAGE/igicon.PNG" class="igiconimg"></a> 
+    <a href="https://twitter.com/DataFilUSA" target="_blank"><img src="IMAGE/twittericon.png" class="twittericonimg"></a>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+  const slider = document.getElementById('slider');
+  let isPaused = false;
+
+  function togglePause() {
+    isPaused = !isPaused;
+  }
+
+  function updateSlider() {
+    if (!isPaused) {
+      const firstSlide = slider.firstElementChild;
+      slider.style.transition = 'transform 0.5s ease-in-out';
+      slider.style.transform = `translateX(-${firstSlide.offsetWidth}px)`;
+
+      setTimeout(() => {
+        slider.style.transition = 'none';
+        slider.appendChild(firstSlide);
+        slider.style.transform = 'translateX(0)';
+      }, 500);
+    }
+  }
+
+  setInterval(updateSlider, 3000); // Change slide every 3 seconds
+</script>
+
+</body>
+</html>

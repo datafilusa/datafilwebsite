@@ -1,0 +1,55 @@
+
+
+.choosetest{
+  display:flex;
+  flex-direction: row;
+  margin-left: 240px;
+}
+
+.choosedata{
+  margin-top: -150px;
+}
+.choosedataimg{
+  border-radius: 30px;
+}
+.testimonial {
+  overflow: hidden;
+
+/* Add this to position the testimonial container relative to its parent */
+  margin-top: -150px; /* Adjust this value based on your design */
+}
+
+#slider-container {
+  position: relative;
+  overflow: hidden;
+  width: 80vw;
+  max-width: 800px;
+  height: 62vh;
+  border: 2px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  margin-left: auto; /* Center the container horizontally */
+  margin-right: auto; /* Center the container horizontally */
+}
+
+#slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  overflow: hidden;
+}
+
+.slideimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slideimg:hover {
+  transform: scale(1.1);
+}

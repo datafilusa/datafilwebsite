@@ -1,0 +1,90 @@
+p{
+  font-family: Roboto,Arial;
+}
+
+.contactuscontent{
+  display: flex;
+  margin-top: 300px;
+  height:100px;
+  flex-direction: row;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  width: 100%;
+  color: rgb(12, 12, 85);
+  min-width: 1500px;
+}
+
+.nepalcontact{
+  width: 200px;
+  padding-right: 40px;
+}
+.nepalflag{
+  width:30px;
+  vertical-align: top;
+}
+
+.callusnepal{
+  vertical-align:top;
+  margin-left: 45px;
+  position: relative;
+  top: -10px;
+}
+
+
+.indiacontact{
+  width: 250px;
+  padding-right: 40px;
+}
+.indiaflag{
+  width: 50px;
+  padding-right: 10px;
+  vertical-align: text-top;
+}
+
+.callusindia{
+  vertical-align:top;
+  margin-left: 64px;
+  position: relative;
+  top: -10px;
+}
+
+
+.philippinescontact{
+  width: 300px;
+  padding-right: 40px;
+}
+
+.philippinesflag{
+  width: 50px;
+  height: 35px;
+  padding-right: 10px;
+  vertical-align: top;
+}
+
+.callusphilippines{
+  vertical-align:top;
+  position: relative;
+  top: -10px;
+  margin-left: 95px;
+}
+
+.usacontact{
+  width: 280px;
+}
+.usaflag{
+  width:50px;
+  height:35px;
+  padding-right: 10px;
+  vertical-align: top;
+}
+
+.callususa{
+  vertical-align:top;
+  margin-left: 90px;
+  position: relative;
+  top: -10px;
+}
+
+
+

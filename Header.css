@@ -1,0 +1,73 @@
+p{
+  font-family: Roboto, Arial;
+}
+ 
+.headerabt{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:1;
+  background-color: white;
+  position:fixed;
+}
+
+.logoabt{
+  width:650px;
+  height: 150px;
+}
+.datafillogoimage{
+  width: 250px;
+  height: 60px;
+  padding-left: 100px;
+  margin-top: 40px;
+
+}
+
+
+.contactheaderabt{
+  width:650px;
+  height: 150px;
+  flex-shrink:0;
+  color:rgb(12, 12, 85);
+  display:flex;
+  align-items: center;
+}
+.mailiconabt{
+  font-size: 30px;
+  color: rgb(12, 12, 85);
+  border:none;
+}
+.whatsappiconabt {
+  width: 26px;
+  padding-left: 50px;
+  padding-right: 4px;
+  height: 24px;
+}
+
+
+.socialmediaabt{
+  flex-shrink: 0;
+  width: 650px;
+  height: 150px;
+  display:flex;
+  align-items: center;
+  justify-content: end;
+}
+.facebookiconabt {
+  width:44px;
+}
+.instagramiconabt {
+  width:45px;
+  padding-left: 30px;
+}
+.twittericonabt {
+  width:45px;
+  padding-left: 30px;
+  padding-right: 130px;
+}
+

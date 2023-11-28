@@ -1,0 +1,125 @@
+*{
+  margin:0;
+  padding:0;
+}
+.container {
+  background: white;
+  font-size: 14px;
+  font-family: Roboto,Arial;
+}
+
+.container{
+  width: 80%;
+  margin:50px auto;
+  color: rgb(12, 12, 85)
+}
+
+.contact-box{
+  background: #fff;
+  display: flex;
+}
+
+.contact-left{
+  flex-basis: 60%;
+  padding: 40px 60px;
+  background-color: white;
+  color:#fff;
+  font-weight: bold;
+}
+
+.contact-right{
+  flex-basis: 40%;
+  padding: 40px;
+  background:rgb(12, 12, 85);
+  color:#fff;
+  font-weight: bold;
+}
+
+h1{
+  margin-bottom: 10px;
+}
+
+
+.container p{
+  margin-bottom: 40px;
+}
+
+.headingemailbox{
+  margin-left: 60px;
+}
+
+.input-row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-row .input-group{
+  flex-basis: 45%;
+}
+
+input{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding-bottom: 5px;
+}
+
+textarea{
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+label{
+  margin-bottom: 6px;
+  display: block;
+  color: rgb(12, 12, 85);
+  font-weight: bold;
+}
+.submitbutton{
+  background: rgb(12, 12, 85);
+  width: 100px;
+  border: none;
+  outline: none;
+  color: #fff;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+  box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+.submitbutton:hover{
+  background-color: white;
+  color: rgb(12, 12, 85);
+}
+
+.submitbutton:active{
+  background-color: rgb(254, 204, 2);
+  color: white;
+}
+
+.contact-left h3{
+  color: rgb(12, 12, 85);
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.contact-right h3{
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+tr td:first-child{
+  padding-right: 20px;
+}
+
+tr td{
+  padding-top:20px;
+}

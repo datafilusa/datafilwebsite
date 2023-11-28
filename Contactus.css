@@ -1,0 +1,285 @@
+p{
+  font-family: Roboto, Arial;
+}
+ 
+.headerabt{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:1;
+  background-color: white;
+}
+
+.logoabt{
+  width:650px;
+  height: 150px;
+}
+.datafillogoimage{
+  width: 150px;
+  height: 80px;
+  padding-left: 75px;
+  margin-top: 40px;
+
+}
+
+
+.contactheaderabt{
+  width:650px;
+  height: 150px;
+  flex-shrink:0;
+  color:rgb(12, 12, 85);
+  display:flex;
+  align-items: center;
+}
+.mailiconabt{
+  font-size: 30px;
+  color: rgb(12, 12, 85);
+  border:none;
+}
+.whatsappiconabt {
+  width: 26px;
+  padding-left: 50px;
+  padding-right: 4px;
+  height: 24px;
+}
+
+
+.socialmediaabt{
+  flex-shrink: 0;
+  width: 650px;
+  height: 150px;
+  display:flex;
+  align-items: center;
+  justify-content: end;
+}
+.facebookiconabt {
+  width:44px;
+}
+.instagramiconabt {
+  width:45px;
+  padding-left: 30px;
+}
+.twittericonabt {
+  width:45px;
+  padding-left: 30px;
+}
+.linkediniconabt {
+  width: 45px;
+  padding-left: 30px;
+  padding-right: 130px;
+}
+
+.buttonsabt{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 150px;
+  border-right: none;
+  border-left: none;
+  background-color: rgb(12, 12, 85);
+  flex-shrink: 0;
+  left: 0px;
+  right:0px;
+  height: 50px;
+  flex-shrink: 0;
+  border: solid;
+  border-right: none;
+  border-left:none;
+  border-color: rgb(12, 12, 85);
+  border-width: 2px;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:1;
+}
+.buttonsabt:hover{
+  background-color: white;
+  transition: 1s;
+  border: solid;
+  border-right: none;
+  border-left:none;
+  border-color: rgb(12, 12, 85);
+  border-width: 2px;
+
+}
+
+.sloganabt{
+  font-family: Caveat;
+  font-weight: bold;
+  font-size: 30px;
+  width: 500px;
+  margin-left: 50px;
+  color: white;
+  flex-shrink: 0;
+}
+
+.anchorsloganabt{
+  text-decoration: none;
+  color:white;
+}
+.buttonsabt:hover .anchorsloganabt {
+  transition: background-color 1s;
+  color:rgb(12, 12, 85);
+}
+
+.homebuttonabt{
+  height: 50px;
+  width: 100px;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+  background-color: rgb(12, 12, 85);
+  border:none
+}
+.buttonsabt:hover .homebuttonabt {
+  background-color:  white;
+  transition: background-color 1s;
+  color:rgb(12, 12, 85);
+}
+
+#homebuttonabtid:hover {
+  background-color: rgb(12, 12, 85);
+  color:white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: 1s;
+}
+#homebuttonabtid:active {
+background-color:  rgb(254, 204, 2);
+color:white;
+transition:0ms;
+}
+
+
+.aboutusbuttonabt {
+  height: 50px;
+  width: 110px;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+  background-color: rgb(12, 12, 85);
+  border:none
+}
+.buttonsabt:hover .aboutusbuttonabt {
+  background-color:  white;
+  transition: background-color 1s;
+  color:rgb(12, 12, 85);
+}
+
+#aboutusbuttonabtid:hover {
+  background-color: rgb(12, 12, 85);
+  color:white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: 1s;
+}
+#aboutusbuttonabtid:active {
+background-color:  rgb(254, 204, 2);
+color:white;
+transition:0ms;
+}
+
+.ourservicesbuttonabt {
+  height: 50px;
+  width: 140px;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+  background-color: rgb(12, 12, 85);
+  border:none
+}
+.buttonsabt:hover .ourservicesbuttonabt {
+  background-color:  white;
+  transition: background-color 1s;
+  color:rgb(12, 12, 85);
+}
+
+#ourservicesbuttonabtid:hover {
+  background-color: rgb(12, 12, 85);
+  color:white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: 1s;
+}
+#ourservicesbuttonabtid:active {
+background-color:  rgb(254, 204, 2);
+color:white;
+transition:0ms;
+}
+
+
+.contactusbuttonabt {
+  height: 50px;
+  width: 140px;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+  background-color: rgb(12, 12, 85);
+  border:none
+}
+.buttonsabt:hover .contactusbuttonabt {
+  background-color:  white;
+  transition: background-color 1s;
+  color:rgb(12, 12, 85);
+}
+
+#contactusbuttonabtid:hover {
+  background-color: rgb(12, 12, 85);
+  color:white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: 1s;
+}
+#contactusbuttonabtid:active {
+background-color:  rgb(254, 204, 2);
+color:white;
+transition:0ms;
+}
+
+
+.contactusinfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 300px;
+  flex-shrink: 0;
+  align-items: center;
+  position: static;
+  }
+  
+  .nepalcontact{
+    background-color: red;
+    width:500px;
+    height: 500px;
+  }
+  .indiacontact{
+    background-color: blue;
+    width:500px;
+    height: 500px;
+  }
+  .philippinescontact{
+    background-color: yellow;
+    width: 500px;
+    height: 500px;
+  }
+  .usacontact{
+    background-color: green;
+    width:500px;
+    height: 500px;
+  }
+  
